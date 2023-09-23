@@ -17,6 +17,7 @@ function App() {
       <BrowserRouter>
         <Header/>
         <Routes>
+          {/* Path end points that conditionally rending components */}
           <Route path="/" element={<About/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
           <Route path="/contact" element={<Contact/>}/>
