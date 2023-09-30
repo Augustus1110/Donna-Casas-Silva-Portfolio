@@ -5,18 +5,46 @@ import liberty from "../images/Liberty.jpeg";
 function Portfolio() {
   const projects = [
     {
-      title: "project 1",
-      description: "this is a project 1 description.",
-      image: "pathtoimage",
-      github: "github.com/project1",
-      url: "github.io/project1",
+      title: "Linguini Language App",
+      description: "Language learning app.",
+      image: require("../images/Linguini.png"),
+      github: "https://github.com/MMerzoug/linguini-language-tutoring",
+      url: "https://pasta-fagioli-b817a8e5488d.herokuapp.com/",
     },
     {
-      title: "project 2",
-      description: "this is a project 2 description.",
-      image: "pathtoimage",
-      github: "github.com/project2",
-      url: "github.io/project2",
+      title: "Linguini Language App",
+      description: "Language learning app.",
+      image: require("../images/Linguini.png"),
+      github: "https://github.com/MMerzoug/linguini-language-tutoring",
+      url: "https://pasta-fagioli-b817a8e5488d.herokuapp.com/",
+    },
+    {
+      title: "Linguini Language App",
+      description: "Language learning app.",
+      image: require("../images/Linguini.png"),
+      github: "https://github.com/MMerzoug/linguini-language-tutoring",
+      url: "https://pasta-fagioli-b817a8e5488d.herokuapp.com/",
+    },
+    {
+      title: "Linguini Language App",
+      description: "Language learning app.",
+      image: require("../images/Linguini.png"),
+      github: "https://github.com/MMerzoug/linguini-language-tutoring",
+      url: "https://pasta-fagioli-b817a8e5488d.herokuapp.com/",
+    },
+    {
+      title: "Linguini Language App",
+      description: "Language learning app.",
+      image: require("../images/Linguini.png"),
+      github: "https://github.com/MMerzoug/linguini-language-tutoring",
+      url: "https://pasta-fagioli-b817a8e5488d.herokuapp.com/",
+    },
+    {
+      title: "Linguini Language App",
+      description: "Language learning app.",
+      image: require("../images/Linguini.png"),
+      github: "https://github.com/MMerzoug/linguini-language-tutoring",
+      url: "https://pasta-fagioli-b817a8e5488d.herokuapp.com/",
     },
   ];
   return (
@@ -28,19 +56,20 @@ function Portfolio() {
     >
       <div className="App">
         <h2>Portfolio</h2>
-        {projects.map((project) => {
-          return (
-            <Project
-              title={project.title}
-              description={project.description}
-              image={project.image}
-              github={project.github}
-              url={project.url}
-            />
-          );
-        })}
+        <div className="project-flex">
+          {projects.map((project) => {
+            return (
+              <Project
+                title={project.title}
+                description={project.description}
+                image={project.image}
+                github={project.github}
+                url={project.url}
+              />
+            );
+          })}
+        </div>
       </div>
-
       <div style={{ height: "700px" }} />
     </Parallax>
   );
