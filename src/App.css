@@ -28,3 +28,85 @@
   background-color: #4CAF50;
   margin: 5px;  
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+}
+
+.contact-button {
+  width: 110px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+
+}
+
+.top-text {
+  margin-top: 50px;
+  font-size: 25px
+}
+
+.skills {
+  list-style-type: none;
+}
+
+.link-img{
+  height: 35px;
+  width: 35px;
+}
+
+.link-list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width:400px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.footer-size{
+  height: 110px;
+  width: 100%;
+  background-color: #2e92ba;
+
+  
+}
+.foot-link{
+  margin-top: 35px
+}
+
+
+.header-size{
+  background-color: #2e92ba;
+}
+
+.powerpuff{
+  height: 200px;
+  width: 175px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.resume{
+  margin-top: -45px;
+}
+
+.my-name{
+  font-size: 45px;
+  padding: 50px 20px 5px 20px;
+  
+}
+
+.nav-link{
+  color: black;
+  font-size: 22px;
+}

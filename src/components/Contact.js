@@ -69,7 +69,8 @@ function Contact() {
     strength={100}
   >
     <div>
-      <p>Please contact me by filling in your information below.</p>
+      <h2>Contact</h2>
+      <p className="top-text">Please contact me by filling in your information below.</p>
       <form className="form">
         <input
           defaultValue={email}
@@ -91,7 +92,7 @@ function Contact() {
           onBlur={handleInputChange}
           placeholder="Message"
         />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button type="button" className="contact-button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>

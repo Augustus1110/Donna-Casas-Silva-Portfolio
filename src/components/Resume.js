@@ -12,6 +12,7 @@ function Resume() {
   >
     <section className="my-5">
       <div className="my-2">
+      <h2 className="resume">Resume</h2>  
       <p>
         Download my <a href={resume} download>resume</a>
         </p>
