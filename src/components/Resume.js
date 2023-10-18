@@ -1,7 +1,15 @@
 import resume from '../images/DCSResume.pdf';
+import { Parallax, Background } from "react-parallax";
+import pastel from "../images/Pastel.png";
 
 function Resume() {
   return (
+    <Parallax
+    blur={{ min: -15, max: 15 }}
+    bgImage={pastel}
+    bgImageAlt="pastel"
+    strength={100}
+  >
     <section className="my-5">
       <div className="my-2">
       <p>
@@ -29,6 +37,8 @@ function Resume() {
         </ul>
       </div>
     </section>
+    <div style={{ height: "700px" }} />
+    </Parallax>
   );
 }
 

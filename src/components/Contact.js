@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Parallax, Background } from "react-parallax";
 import pastel from '../images/Pastel.png';
 
 // import './style.css';
@@ -61,6 +62,12 @@ function Contact() {
   };
 
   return (
+    <Parallax
+    blur={{ min: -15, max: 15 }}
+    bgImage={pastel}
+    bgImageAlt="pastel"
+    strength={100}
+  >
     <div>
       <p>Please contact me by filling in your information below.</p>
       <form className="form">
@@ -92,6 +99,8 @@ function Contact() {
         </div>
       )}
     </div>
+    <div style={{ height: "700px" }} />
+    </Parallax>
   );
 }
 
