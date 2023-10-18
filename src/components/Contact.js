@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import pastel from '../images/Pastel.png';
+
 // import './style.css';
 
 // Imports helper function that checks if the email is valid.
