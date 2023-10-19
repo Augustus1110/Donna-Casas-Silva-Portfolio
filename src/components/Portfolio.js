@@ -56,7 +56,7 @@ function Portfolio() {
       strength={100}
     >
       <div className="App">
-        <h2>Portfolio</h2>
+        <h2 className="portfolio-text">Portfolio</h2>
         <div className="project-flex">
           {projects.map((project) => {
             return (

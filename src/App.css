@@ -25,7 +25,7 @@
 }
 
 .btn {
-  background-color: #4CAF50;
+  background-color:  #157274;
   margin: 5px;  
 }
 
@@ -74,7 +74,7 @@ form {
 .footer-size{
   height: 110px;
   width: 100%;
-  background-color: #2e92ba;
+  background-color: #157274;
 
   
 }
@@ -83,8 +83,24 @@ form {
 }
 
 
+.git-img{
+  height: 50px;
+  width: 50px;
+}
+
+.face-img{
+  height: 85px;
+  width: 85px;
+  margin-top: -19px;
+}
+
+.link-img{
+  height: 50px;
+  width: 50px;
+}
+
 .header-size{
-  background-color: #2e92ba;
+  background-color: #157274;
 }
 
 .powerpuff{
@@ -101,12 +117,20 @@ form {
 }
 
 .my-name{
-  font-size: 45px;
+  font-size: 42px;
   padding: 50px 20px 5px 20px;
-  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  color: white;
 }
 
 .nav-link{
-  color: black;
+  color: white;
   font-size: 22px;
+  font-weight: 600;
+}
+
+.portfolio-text {
+  margin-bottom: 100px;
 }
