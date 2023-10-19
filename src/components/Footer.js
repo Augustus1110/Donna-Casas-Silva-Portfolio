@@ -3,6 +3,7 @@ import linkedIn from "../images/LinkedIn.png"
 import gitHub from "../images/GitHub.png"
 import face from "../images/FB.png"
 
+// Note that I do not have a third type of social media to link in the footer as the assignment criteria requires. I put the Facebook logo in the Footer, but it purposefully routes back to my GitHub page because I do not use Facebook.
 function Footer() {
     return (
       <div className="App footer-size">

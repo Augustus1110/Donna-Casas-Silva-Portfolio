@@ -7,7 +7,7 @@ function Portfolio() {
   const projects = [
     {
       title: "Code-E the Code Bot",
-      description: "AI Powered chatbot to answer your coding questions",
+      description: "Simplify your coding with an AI chatbot",
       image: require("../images/Code-E.png"),
       github: "https://github.com/Cleffy/Best-Code-Bot-Ever",
       url: "https://best-code-bot-ever-6c020fa64dc5.herokuapp.com/",
