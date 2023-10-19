@@ -58,4 +58,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 (https://github.com/Augustus1110/Donna-Casas-Silva-Portfolio)
 
 ### Project URL
-The project is currently not hosted online.
+(https://donna-casas-silva-portfolio-efaa64c3e18a.herokuapp.com/)
