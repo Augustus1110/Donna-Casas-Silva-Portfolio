@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Donna Casas-Silva Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+### Table of Contents
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Technologies](#technologies) 
+4. [Usage](#usage)
+5. [Images](#images)
+6. [Contributing](#contributing)
+7. [Collaborators](#collaborators)
+8. [Questions](#questions)
+9. [License](#license)
+10. [Project URL](#project-url)
 
-In the project directory, you can run:
+### Description
+This project is a portfolio website that showcases my skills and projects as a recent UC Berkeley Extension Coding Boot Camp graduate. This site is built using React and links the viewer to various project I built that display my range of front-end and back-end development skills, such as HTML, CSS, JavaScript, jQuery, responsive design, React, APIs, Node, Express, MySQL, Sequelize, MongoDB, Mongoose, REST, and GraphQL. The site includes a Portfolio section that contains a range of projects completed by or contributed to by me, as well as an About section that provides more information about my background and skills. Additionally there is a Contact and Resume section for more information about how to contact me and to view my resume. The site is fully responsive and can be viewed on a variety of devices, including desktop, tablet, and mobile. 
 
-### `npm start`
+### Technologies
+This project utilizes the following technologies:
+- React
+- JavaScript
+- CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
+To install this project, follow these steps:
+1. Clone the repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install the necessary dependencies.
+4. Run `npm start` to start the development server.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Usage
+To use this project, follow these steps:
+1. Open your web browser.
+2. Navigate to the URL where the project is hosted.
+3. Explore the portfolio section to view the developer's projects.
+4. Explore the about section to learn more about the developer's background and skills.
 
-### `npm test`
+### Images
+![Screenshot](./src/images/PortfolioPage.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Contributing
+Contributions to this project are currently not being accepted. If you would like to contribute, please contact the developer at the email listed below.
 
-### `npm run build`
+### Collaborators
+This project was completed with guidance and assistance from EdX tutor, Robby Kurle.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Questions
+If you have any questions, please contact me:
+- GitHub: [Augustus1110](https://github.com/Augustus1110)
+- Email: donahi22@gmail.com
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### GitHub Repository
+(https://github.com/Augustus1110/Donna-Casas-Silva-Portfolio)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Project URL
+The project is currently not hosted online.

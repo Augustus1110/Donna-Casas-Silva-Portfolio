@@ -1,4 +1,3 @@
-import profileImg from "../images/ProfileDCS.png"
 import linkedIn from "../images/LinkedIn.png"
 import gitHub from "../images/GitHub.png"
 import face from "../images/FB.png"

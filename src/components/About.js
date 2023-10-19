@@ -17,7 +17,7 @@ function About() {
     <div className="App">
         <h2>About Me</h2>
         <img className="powerpuff" src={ImgProfile} alt ="Powerpuff Donna" />
-      <p>My name is Donna and I am a recent graduate of the UC Berkeley Extension Coding Bootcamp.</p> 
+      <p>My name is Donna and I am a recent graduate of the UC Berkeley Extension Coding Boot Camp.</p> 
       <p>I am based in the San Francisco Bay Area and with my newly acquired range of front-end and back-end development skills, I am embarking on a new career in web development.</p> 
       <p>My front-end proficiencies include HTML, CSS, JavaScript, jQuery, responsive design, React, and Bootstrap.</p> 
       <p>My back-end proficiencies include APIs, Node, Express, MySQL, Sequelize, MongoDB, Mongoose, REST, and GraphQL.</p> 
